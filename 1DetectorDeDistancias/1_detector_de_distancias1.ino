@@ -32,7 +32,7 @@ void loop()
   Serial.println("cm");
   delay(500);
   
-  //VERIFICACION DE LA DISTANCIA , variable entre 100 , 200 y 300
+  //VERIFICACION DE LA DISTANCIA , las distancias se colocaron en 5 10 debido a que al momento de realizar la prueba fisica los valores de 100 200 etc, no eran posibles detectarlos
   if (distancia <= 5){
     digitalWrite(rojo,HIGH);
     digitalWrite(amarillo,LOW);
